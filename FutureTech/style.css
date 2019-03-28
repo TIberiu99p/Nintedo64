@@ -65,31 +65,6 @@ body{
     margin-left:50px;
 }
 
-.showcase::after{
-    content:'';
-    height: 150vh;
-    width: 100%;
-    background-image: url(The_Legend_of_Zelda_Ocarina_of_Time.svg.png);
-    background-size: height = "42", width = "42" ;
-    background-repeat: no-repeat;
-    background-position: center;
-    display: block;
-    filter: blur(10px);
-    -webkit-filter: blur(10px);      
-    transition: all 1000ms;
-    
-}
-
-.showcase:hover::after{
-    filter: blur(0px);
-    -webkit-filter:blur(0px);
-}
-
-.showcase:hover .content{
-    filter: blur(2px);
-    -webkit-filter: blur(0px);
-}
-
 .content{
     position: absolute;
     z-index: 1;
