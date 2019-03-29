@@ -1,5 +1,8 @@
 body{
     background: rgba(0,0,0,0.9);
+    background-image: url("Kirby.png");
+    background-repeat: no-repeat, repeat;
+    background-position: center;
     margin:0 ;
     color:#fff;
     font-family: 'Press Start 2P', cursive;
